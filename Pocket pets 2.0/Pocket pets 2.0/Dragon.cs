@@ -26,10 +26,9 @@ namespace Pocket_pets_2._0
 		public void GiveGold()
 		{//player is supposed to offer gold to dragons because dragons
 			
-			foreach (string n in )
-			{
-				aryDropDown.Items.Add(n);
-			}
+			
+				//Items.Gold.Add(new Item(""));
+			
 		}
 
 	}
