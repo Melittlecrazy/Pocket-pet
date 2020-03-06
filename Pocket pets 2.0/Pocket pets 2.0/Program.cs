@@ -11,12 +11,33 @@ namespace Pocket_pets_2._0
     {
         static void Main(string[] args)
         {
-            Run();
-            void Run()
+            WriteLine("Hi, Welcome to the Adopt-a-dragon.");
+            Status();
+            WriteLine("1)clean pet" +
+                "\n2)feed pet." +
+                "\n3) Play" +
+                "\n4) Train" +
+                "\n5) Shop");
+            string choice = ReadLine();
+            if (choice == "1")
             {
 
+            }
+            else if (choice == "2")
+            {
 
-                ReadKey();
+            }
+            else if (choice == "3")
+            {
+
+            }
+            else if (choice == "4")
+            {
+
+            }
+            else if (choice == "5")
+            {
+                WriteLine("sorry we don't have a shop yet.");
             }
         }
     }

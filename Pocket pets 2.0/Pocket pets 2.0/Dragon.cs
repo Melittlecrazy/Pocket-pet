@@ -17,9 +17,9 @@ namespace Pocket_pets_2._0
 			Flame = "Whoosh!!!";
 		}
 
-		public override void Talk()
+		public override void Status()
 		{
-			base.Talk();
+			base.Status();
 			Console.WriteLine(this.Name + " spits fire at you, " + this.Flame);
 		}
 		

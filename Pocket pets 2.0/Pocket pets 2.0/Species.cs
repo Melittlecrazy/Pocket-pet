@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,18 +11,20 @@ namespace Pocket_pets_2._0
     {
 		public string Name;
 		public string Birth;
-		public string Skin;
+		public bool HasHair;
+		public int Age;
+
 
 		public Species(string newName)
 		{
 			Name = newName;
 			Birth = " can duplicate it's self through magic and capitalism, like baby Mr.Peanut.";
-			Skin = " has hair.";
+			
 		}
 
-		public virtual void Talk()
+		public virtual void Status()
 		{
-			Console.WriteLine($"{Name} says Hi.");
+			WriteLine($"{Name} says Hi.");
 		}
  
 	}
