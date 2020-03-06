@@ -1,5 +1,6 @@
 ﻿using System;
 using static System.Console;
+using static Pocket_pets_2._0.Utility;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,27 +10,39 @@ namespace Pocket_pets_2._0
 {
     class Dragon : Species
     {
-		public string Flame;
+		private string name = "Tis a dragoon!";
+		public string Name { get => name; set => name = value; }
+		public string Description = "";
 
-		public Dragon(string newName)
+		//public string Flame;
+
+		public virtual void Act()
 		{
-			Name = newName;
-			Flame = "Whoosh!!!";
+
+		} 
+
+		public virtual void Status()
+		{
+			
+		}
+		public void Status(string _message)
+		{
+			Print (_message);
+			//WriteLine(this.Name + " spits fire at you, " + this.Flame);
+		}
+		public Dragon(string _name, string _discription)
+		{
+			name = _name;
+			//Flame = "Whoosh!!!";
 		}
 
-		public override void Status()
-		{
-			base.Status();
-			Console.WriteLine(this.Name + " spits fire at you, " + this.Flame);
-		}
-		
-		public void GiveGold()
-		{//player is supposed to offer gold to dragons because dragons
-			
-			
-				//Items.Gold.Add(new Item(""));
-			
-		}
+		//public void GiveGold()
+		//{//player is supposed to offer gold to dragons because dragons
+
+
+		//		//Items.Gold.Add(new Item(""));
+
+		//}
 
 	}
 }

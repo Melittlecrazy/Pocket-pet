@@ -1,5 +1,4 @@
 ﻿using System;
-using static System.Console;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Pocket_pets_2._0
 {
-    class Program
+    class Smog : Dragon
     {
-        static void Main()
+
+        public Smog(string _name, string _discription) : base(_name, _discription)
         {
-            App Start = new App();
+
+        }
+
+        public override void Act()
+        {
 
         }
     }

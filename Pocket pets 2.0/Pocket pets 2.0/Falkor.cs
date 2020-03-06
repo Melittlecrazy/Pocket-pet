@@ -8,15 +8,13 @@ namespace Pocket_pets_2._0
 {
     class Falkor : Dragon
     {
-		public Falkor(string newName) : base(newName)
-		{
-			Flame = "Falkor doesn't actually spit out flames.";
-		}
+        public Falkor(string _name, string _discription) : base(_name, _discription)
+        {
 
-		public override void Talk()
-		{
-			base.Talk();
-			Console.WriteLine("\nFalkor might not actually be a dragon...");
-		}
-	}
+        }
+        public override void Act()
+        {
+
+        }
+    }
 }

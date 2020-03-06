@@ -1,0 +1,6 @@
+C:\Users\marc.gutierrez\Documents\GitHub\Pocket-pet\Pocket pets 2.0\Pocket pets 2.0\bin\Debug\Pocket pets 2.0.exe.config
+C:\Users\marc.gutierrez\Documents\GitHub\Pocket-pet\Pocket pets 2.0\Pocket pets 2.0\bin\Debug\Pocket pets 2.0.exe
+C:\Users\marc.gutierrez\Documents\GitHub\Pocket-pet\Pocket pets 2.0\Pocket pets 2.0\bin\Debug\Pocket pets 2.0.pdb
+C:\Users\marc.gutierrez\Documents\GitHub\Pocket-pet\Pocket pets 2.0\Pocket pets 2.0\obj\Debug\Pocket pets 2.0.csprojAssemblyReference.cache
+C:\Users\marc.gutierrez\Documents\GitHub\Pocket-pet\Pocket pets 2.0\Pocket pets 2.0\obj\Debug\Pocket pets 2.0.exe
+C:\Users\marc.gutierrez\Documents\GitHub\Pocket-pet\Pocket pets 2.0\Pocket pets 2.0\obj\Debug\Pocket pets 2.0.pdb

@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace Pocket_pets_2._0
 {
-    class Program
+    class Utility
     {
-        static void Main()
+        public static void Print(string _message)
         {
-            App Start = new App();
-
+            WriteLine();
         }
     }
 }
