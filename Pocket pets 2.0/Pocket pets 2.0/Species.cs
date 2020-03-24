@@ -10,17 +10,15 @@ namespace Pocket_pets_2._0
 {
     class Species
     {
-		public string Name;
-		public string Birth;
-		public int Age;
-		public int Day;
+		public string Name =  "";
 
 		List<Dragon> dragons = new List<Dragon>();
 		public Species()
 		{
 			SetUp();
-
-			Greetings();
+			
+			return;
+			//Greetings();
 			
 		}
 		private void Greetings()
@@ -33,32 +31,6 @@ namespace Pocket_pets_2._0
 			BackgroundColor = ConsoleColor.Cyan;
 			ForegroundColor = ConsoleColor.Red;
 			Clear();
-		}
-		public void Menu()
-		{
-			if(HasDragons())
-			{
-				Print("which dragon do you want to adopt?");
-				foreach (Dragon dragon in dragons)
-				{
-					Print($"      * {dragon.Name}");
-				}
-			}
-			string input = ReadLine();
-		}
-
-		private bool HasDragons()
-		{
-			if (dragons.Count >= 1)
-				return true;
-			return false;
-		}
-
-		private void Adopt()
-		{
-			dragons.Add(new Dragon("Dragoon","I am a regular dragon."));
-			dragons.Add(new Falkor("Falkor","Let's read books!"));
-			dragons.Add(new Smog("Smog","Give me gold."));
 		}
 	}
 }

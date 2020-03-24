@@ -11,23 +11,27 @@ namespace Pocket_pets_2._0
     class Dragon : Species
     {
 		private string name = "Tis a dragoon!";
-		public string Name { get => name; set => name = value; }
+		public new string Name { get => name; set => name = value; }
 		public string Description = "";
 
 		//public string Flame;
 
 		public virtual void Act()
 		{
-
-		} 
-
-		public virtual void Status()
-		{
-			
+			Print("What's my name?");
+			Name = ReadLine();
+			Print($" Oh yeah, It's {Name} the Dragon.");
+			IHasDragon = true;
+			return;
 		}
+		public static bool IHasDragon;
+		//public virtual void Status()
+		//{
+
+		//}
 		public void Status(string _message)
 		{
-			Print (_message);
+			Print(_message);
 			//WriteLine(this.Name + " spits fire at you, " + this.Flame);
 		}
 		public Dragon(string _name, string _discription)
